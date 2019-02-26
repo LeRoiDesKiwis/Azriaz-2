@@ -1,0 +1,55 @@
+name: azriazPlugin
+version: 1.0
+author: Donald_Trumpyyy
+main: azriaz.Main
+commands:
+  test:
+    description: testCommand
+    permission: test.admin
+  gamemode:
+    aliases: gm
+    description: gamemode command
+    permission: gm.admin
+  broadcast:
+    aliases: bc
+    description: broadcast command
+    permission: broadcast.admin
+  vanish:
+    description: vanish command
+    permission: vanish.admin
+  ban:
+    description: ban command
+    permission: ban.admin
+  unban:
+    permission: unban.admin
+  kick:
+    description: kick command
+    permission: kick.admin
+  ping:
+    description: ping command
+  heal:
+    description: heal command
+    permission: heal.player
+  feed:
+    description: feed command
+    permission: feed.player
+  potions:
+    description: potions command
+  withers:
+    description: withers command
+  kit:
+    description: kit command
+  hub:
+    aliases: lobby, spawn
+    description: hub command
+  msg:
+    aliases: tell
+    description: msg command
+  sethome:
+    description: sethome command
+  delhome:
+    description: delhome command
+  home:
+    description: home command
+  money:
+    description: money command

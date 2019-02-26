@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'azriaz'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+jar {
+    baseName = "azriazPlugin"
+    version = 1.0
+
+    manifest {
+        attributes 'Main-Class': 'azriaz.Main'
+    }
+}
+
+repositories {
+    mavenCentral()
+
+    flatDir { dir "libs" }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile name: 'spigot'
+}
